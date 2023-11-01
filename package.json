@@ -1,5 +1,5 @@
 {
-  "name": "@kazesolo/imageToAscii",
+  "name": "imageToAscii",
   "version": "1.0.0",
   "description": "Convert image to ASCII art.",
   "main": "lib/index.js",
