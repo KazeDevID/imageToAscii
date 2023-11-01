@@ -7,10 +7,10 @@ Convert image to ASCII art.
 
 ```sh
 # Using npm
-npm install --save @kazesolo/ImgToAscii
+npm install --save img-to-ascii
 
 # Using yarn
-yarn add @kazesolo/ImgToAscii
+yarn add img-to-ascii
 ```
 
 Check out the [INSTALLATION.md](INSTALLATION.md) guide for more information.
@@ -27,7 +27,7 @@ Check out the [INSTALLATION.md](INSTALLATION.md) guide for more information.
 
 ```js
 // Dependencies
-const imageToAscii = require("@kazesolo/ImgToAscii");
+const imageToAscii = require("img-to-ascii");
 const Your_Img = ''
 
 // Without options

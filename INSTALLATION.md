@@ -25,5 +25,5 @@ $ choco install graphicsmagick
 Then, you can install this package:
 
 ```sh
-$ npm i --save @kazesolo/imageToAscii
+$ npm i --save img-to-ascii
 ```
