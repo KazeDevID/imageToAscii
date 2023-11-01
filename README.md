@@ -7,10 +7,10 @@ Convert image to ASCII art.
 
 ```sh
 # Using npm
-npm install --save ImgToAscii
+npm install --save @kazesolo/ImgToAscii
 
 # Using yarn
-yarn add ImgToAscii
+yarn add @kazesolo/ImgToAscii
 ```
 
 Check out the [INSTALLATION.md](INSTALLATION.md) guide for more information.
