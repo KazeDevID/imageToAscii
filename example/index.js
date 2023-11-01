@@ -4,7 +4,6 @@ const imageToAscii = require("../lib");
 
 const Your_Img = ''
 
-
 // Without options
 imageToAscii(Your_Img, (err, converted) => {
     console.log(err || converted);
