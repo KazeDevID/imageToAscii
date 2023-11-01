@@ -1,5 +1,5 @@
 {
-  "name": "@syntaxteam/imageToAscii",
+  "name": "img-to-ascii",
   "version": "1.0.0",
   "description": "Convert image to ASCII art.",
   "main": "lib/index.js",
