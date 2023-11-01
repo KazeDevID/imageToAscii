@@ -62,9 +62,5 @@
     "one-by-one": "^3.2.8",
     "terminal-char-width": "^1.0.10",
     "ul": "^5.2.15"
-  },
-  "files": [
-    "lib/",
-    "index.js"
-  ]
+  }
 }
