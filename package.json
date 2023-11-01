@@ -1,0 +1,70 @@
+{
+  "name": "@kazesolo/imageToAscii",
+  "version": "1.0.0",
+  "description": "Convert image to ASCII art.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "node example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/KazeDevID/ImgToAscii.git"
+  },
+  "keywords": [
+    "ascii",
+    "image",
+    "png",
+    "node"
+  ],
+  "author": "KazeDevID <kazedevid@gmail.com> (https://github.com/KazeDevID)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KazeDevID/ImgToAscii/issues"
+  },
+  "homepage": "https://github.com/KazeDevID/ImgToAscii",
+  "blah": {
+    "installation": "Check out the [INSTALLATION.md](INSTALLATION.md) guide for more information.",
+    "example": [
+      {
+        "p": "In order to run the `webcam.sh` provided in the `example` folder, you will also need streamer. The script uses streamer to make webcam pictures and converts them into ASCII art using the `webcam.js`"
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": [
+            "# Ubuntu",
+            "$ sudo apt-get install streamer",
+            "",
+            "# CentOS / RHEL",
+            "$ sudo yum install --enablerepo epel GraphicsMagick"
+          ]
+        }
+      },
+      {
+        "p": "To run the script just use:"
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": "sh webcam.sh"
+        }
+      }
+    ]
+  },
+  "dependencies": {
+    "asciify-pixel-matrix": "^1.0.14",
+    "compute-size": "^1.0.13",
+    "image-parser": "^1.2.8",
+    "imgpx": "^1.0.13",
+    "one-by-one": "^3.2.8",
+    "terminal-char-width": "^1.0.10",
+    "ul": "^5.2.15"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ]
+}
